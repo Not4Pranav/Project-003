@@ -10,6 +10,7 @@
 - [Features Overview](#features-overview)
 - [Setup](#setup)
 - [Required Bot Intents](#bot-intents)
+- [Support Server](#support-server)
 - [License](#license)
 
 <a name="features-overview"></a>
@@ -90,6 +91,8 @@
 
 **➡️ Read the [SETUP_GUIDE.md](SETUP_GUIDE.md) — a beginner-friendly, working 10-minute setup with all steps, all commands, all features, and the required intents & permissions.**
 
+**Need help with the setup?** Join the [Discord support server](https://discord.gg/ATsbjzM9vB) — our community will help you get your bot online!
+
 In short: install Node.js 20.10+, download the files, run `npm install`, paste your `DISCORD_TOKEN` and `CLIENT_ID` into a `.env` file (copy `.env.example`), turn on the two privileged intents in the Developer Portal, invite the bot, then run `npm run deploy:guild` and `npm start`.
 
 ### Docker (optional, advanced)
@@ -136,6 +139,17 @@ EmixFG requires the following Discord intents (the two privileged ones must be e
 - **Moderate Members**
 - **Connect**
 - **Speak**
+
+<a name="support-server"></a>
+## Support Server
+
+Need help, have questions, or want to suggest a feature? Join our Discord server:
+
+[![Support Server](https://img.shields.io/badge/-Join%20Support%20Server-%235865F2?logo=discord&logoColor=white&style=flat-square&logoWidth=20)](https://discord.gg/ATsbjzM9vB)
+
+👉 **https://discord.gg/ATsbjzM9vB**
+
+You can also use the `/support` command in any server where EmixFG is running to get the link.
 
 ## License
 

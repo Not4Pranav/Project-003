@@ -1,6 +1,10 @@
 # EmixFG Discord Bot — Setup Guide
 
+[![Support Server](https://img.shields.io/badge/-Support%20Server-%235865F2?logo=discord&logoColor=white&style=flat-square&logoWidth=20)](https://discord.gg/ATsbjzM9vB)
+
 > Made for total beginners. Download the files, paste 2 values, run 3 commands — your bot is online in about 10 minutes.
+>
+> **Need help?** Join our [Discord support server](https://discord.gg/ATsbjzM9vB) — we're happy to help you get set up!
 
 **In this guide:**
 1. [Very Easy Setup Guide (Whole Setup)](#1-very-easy-setup-guide-whole-setup)
@@ -180,6 +184,8 @@ Go to your Discord server and type **`/ping`**. If the bot answers — **you are
 | Bot is online but can't kick/ban | You invited it without those permissions. Re-do Step 7 and tick the missing permissions. |
 | `'node' is not recognized` | Node.js is not installed (or the terminal was open during install). Install from nodejs.org, then open a NEW terminal. |
 | `Cannot find module` error | You skipped Step 3. Run `npm install` inside the bot folder. |
+
+> **Still stuck?** Join the [Discord support server](https://discord.gg/ATsbjzM9vB) or use the `/support` command in any server with EmixFG — we'll help you out.
 
 ---
 
@@ -496,3 +502,5 @@ Only the two **Privileged Gateway Intents** need to be switched on manually (Set
 - **PostgreSQL** — gives permanent data storage. Without it, the bot automatically uses memory storage (data resets on restart) and everything else still works.
 
 That's all — no coding knowledge needed. Enjoy your bot! 🎉
+
+**Questions or feedback?** Come say hi on our [Discord support server](https://discord.gg/ATsbjzM9vB)!
