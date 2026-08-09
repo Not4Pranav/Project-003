@@ -2,7 +2,7 @@
 
 **EmixFG** is a powerful, feature-rich Discord bot designed to enhance your server experience with comprehensive moderation tools, an engaging economy system, music, tickets, and much more. Built with modern Discord.js v14.
 
-[![Support Server](https://img.shields.io/badge/-Support%20Server-%235865F2?logo=discord&logoColor=white&style=flat-square&logoWidth=20)](https://discord.gg/8kJBYhTGW9)
+[![Support Server](https://img.shields.io/badge/-Support%20Server-%235865F2?logo=discord&logoColor=white&style=flat-square&logoWidth=20)](https://discord.gg/ATsbjzM9vB)
 [![Discord.js](https://img.shields.io/npm/v/discord.js?style=flat-square&labelColor=%23202225&color=%23202225&logo=npm&logoColor=white&logoWidth=20)](https://www.npmjs.com/package/discord.js)
 
 ## Table of Contents
