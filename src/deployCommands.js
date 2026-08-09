@@ -23,6 +23,7 @@ async function getAllFiles(dir) {
 
 async function getCommands() {
   const commands = [];
+  const seenNames = new Set();
   const commandsPath = path.join(__dirname, 'commands');
   const commandFiles = await getAllFiles(commandsPath);
 
@@ -31,7 +32,13 @@ async function getCommands() {
       const fileUrl = `file://${filePath.replace(/\\/g, '/')}`;
       const { default: command } = await import(fileUrl);
       if (command?.data) {
-        commands.push(command.data.toJSON());
+        const json = command.data.toJSON();
+        // Skip duplicates (some files just re-export another command)
+        if (seenNames.has(json.name)) {
+          continue;
+        }
+        seenNames.add(json.name);
+        commands.push(json);
       }
     } catch (error) {
       console.error(`[Deploy] Skipped ${filePath}:`, error.message);

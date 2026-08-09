@@ -15,6 +15,7 @@ export async function loadEvents(client) {
       
       if (event?.name && event?.execute) {
         const isOnce = event.once || false;
+        client.events.set(event.name, event);
         if (isOnce) {
           client.once(event.name, (...args) => event.execute(...args, client));
         } else {
